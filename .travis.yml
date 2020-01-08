@@ -1,4 +1,6 @@
 language: node_js # Node 10 LTS or later required
+node_js:
+  - 10 # use Node 10 LTS or later
 addons:
   chrome: stable # make Chrome available
 before_install:
